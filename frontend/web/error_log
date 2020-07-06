@@ -1,0 +1,107 @@
+[28-Oct-2018 08:05:40 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/vireex/public_html/frontend/controllers/ParticipantController.php on line 260. in /home/vireex/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/vireex/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/vireex/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/vireex/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/vireex/public_html/frontend/controllers/ParticipantController.php on line 260. in /home/vireex/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/vireex/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/vireex/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/vireex/public_html/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/bin:/usr/bin:/usr/local/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------257412722828142',
+    'CONTENT_LENGTH' => '1661528',
+    'HTTP_COOKIE' => '_identity-backend=3f4ab1c742c03a7348dd5e629f00c1b9c1e71c5fc67a83acea9ec5eb46e6cb96a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B80%2C%22YT3RzflJ8Q34npCSsjqEJZlSVXHEy9dr%22%2C2592000%5D%22%3B%7D; PHPSESSID=85a1b98b1f02bfac86b659e1ad781c7d; _csrf-frontend=5f8df02ee6654552701901b1799cbffa0b8bc9685509099ea4233fad6d5908b9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XaLSGu83G1dIkejqE-zvZ-lTG3O8CqPs%22%3B%7D',
+    'HTTP_HOST' => 'vireex.com',
+    'HTTP_REFERER' => 'http://vireex.com/frontend/web/participant/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'DOCUMENT_ROOT' => '/home/vireex/public_html',
+    'REMOTE_ADDR' => '5.52.110.213',
+    'REMOTE_PORT' => '29385',
+    'SERVER_ADDR' => '176.9.98.112',
+    'SERVER_NAME' => 'vireex.com',
+    'SERVER_ADMIN' => 'webmaster@vireex.com',
+    'SERVER_PORT' => '80',
+    'REQUEST_URI' => '/frontend/web/participant/create',
+    'REDIRECT_URL' => '/frontend/web/participant/create',
+    'REDIRECT_STATUS' => '200',
+    'SCRIPT_FILENAME' => '/home/vireex/public_html/frontend/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'http://vireex.com/frontend/web/participant/create',
+    'SCRIPT_URL' => '/frontend/web/participant/create',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'POST',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1540713940.51939105987548828125,
+    'REQUEST_TIME' => 1540713940,
+    'argv' => [],
+    'argc' => 0,
+]
+[28-Oct-2018 08:10:35 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/vireex/public_html/frontend/controllers/ParticipantController.php on line 260. in /home/vireex/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/vireex/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/vireex/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/vireex/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/vireex/public_html/frontend/controllers/ParticipantController.php on line 260. in /home/vireex/public_html/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/vireex/public_html/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/vireex/public_html/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/vireex/public_html/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/bin:/usr/bin:/usr/local/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------257412722828142',
+    'CONTENT_LENGTH' => '1661528',
+    'HTTP_COOKIE' => '_identity-backend=3f4ab1c742c03a7348dd5e629f00c1b9c1e71c5fc67a83acea9ec5eb46e6cb96a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B80%2C%22YT3RzflJ8Q34npCSsjqEJZlSVXHEy9dr%22%2C2592000%5D%22%3B%7D; PHPSESSID=85a1b98b1f02bfac86b659e1ad781c7d; _csrf-frontend=5f8df02ee6654552701901b1799cbffa0b8bc9685509099ea4233fad6d5908b9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XaLSGu83G1dIkejqE-zvZ-lTG3O8CqPs%22%3B%7D',
+    'HTTP_HOST' => 'vireex.com',
+    'HTTP_REFERER' => 'http://vireex.com/frontend/web/participant/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'DOCUMENT_ROOT' => '/home/vireex/public_html',
+    'REMOTE_ADDR' => '5.52.110.213',
+    'REMOTE_PORT' => '29303',
+    'SERVER_ADDR' => '176.9.98.112',
+    'SERVER_NAME' => 'vireex.com',
+    'SERVER_ADMIN' => 'webmaster@vireex.com',
+    'SERVER_PORT' => '80',
+    'REQUEST_URI' => '/frontend/web/participant/create',
+    'REDIRECT_URL' => '/frontend/web/participant/create',
+    'REDIRECT_STATUS' => '200',
+    'SCRIPT_FILENAME' => '/home/vireex/public_html/frontend/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'http://vireex.com/frontend/web/participant/create',
+    'SCRIPT_URL' => '/frontend/web/participant/create',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'POST',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1540714235.6450669765472412109375,
+    'REQUEST_TIME' => 1540714235,
+    'argv' => [],
+    'argc' => 0,
+]
